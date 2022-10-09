@@ -1,0 +1,41 @@
+.img1 {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 500px;
+  margin-right: 1000px;
+  background-color: blue;
+}
+
+h2 {
+  color: blue;
+}
+h1 {
+  color: blue;
+}
+.img2 {
+  float: right;
+}
+em.note1 {
+  color: red;
+}
+h1.head {
+  background-color: red;
+}
+p.p1 {
+  color: white;
+  background-color: black;
+}
+em.pu {
+  color: orange;
+  font-style: normal;
+}
+em.ma {
+  color: yellow;
+}
+body {
+  background-color: ;
+}
+img.colord {
+  width: 1000px;
+  height: 0.5cm;
+}
