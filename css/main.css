@@ -3,7 +3,8 @@
   height: 1000px;
   border-radius: 500px;
   margin-right: 1000px;
-  background-color: blue;
+  background: blue;
+  margin-right: 0px;
 }
 
 h2 {
@@ -38,4 +39,30 @@ body {
 img.colord {
   width: 1000px;
   height: 0.5cm;
+}
+h3 {
+  color: red;
+}
+h4 {
+  color: yellow;
+  background-color: gray;
+}
+h5 {
+  color: green;
+}
+nav {
+  background: blue;
+  height: 50px;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+.color {
+  height: 500px;
+  width: 500px;
+}
+button {
+  width: 5cm;
+  float: right;
+  margin-top: 10px;
 }
