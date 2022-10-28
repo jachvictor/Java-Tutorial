@@ -70,7 +70,7 @@
        but usually, the first function of our java programm is <em>"main"</em> which is followed by a pair of brackects 
        like this"()" where we pass value and parameters to our funtion and we now add after the bracket, a pair of two brace"{}"",
        this is where our code
-      (inbetween the braces) will be written. every function is to belong to a <em>class</em>, remember we talked about class earlier, so 
+       (inbetween the braces) will be written. every function is to belong to a <em>class</em>, remember we talked about class earlier, so 
        a class is a kind of organiser thats contains related functions. For example, just think of a freezer containing 
        different kind of edible stuffs like drinks, solid food, fruits or sacks, now the freezer is the <em>class</em>
        while the edible stuffs are the <em>funtions</em> which will be now called <em>method</em>( a methed is a function
@@ -80,19 +80,19 @@
        must have an access modifier. There are two main access modifiers in java which are; <em>public</em> and <em>private</em>, they 
        act as thier name implies:public to be accessable and private to be unaccessabie by other classes and methods, an access modifier
        should be written at the beginning of our class name and method name(before writing "class and class name and also before writing the
-        returntype/void and main name of your method") followed by <em>static</em>(every  methods should 
+       returntype/void and main name of your method") followed by <em>static</em>(every  methods should 
        be static which is written after the access modifier).before moving on, we will talk about"packages": it's just what holds and organises
        our classes(that contain the method and our code).So this is just a start in writng a java program, we are now going to discuss the syntax
        of java. Don't worry if u didn't understand how to name classes and methods, here are few images  below for you to understand more
        <p ><em class="note1">NOTE: </em>classes name are named using the <em>PascalNamingConvention</em>(the first latter of each word is in uppercase)
         while mathods name are named using <em>camelNamingConvention</em>(the first latter of each word is in upper case expect the first word)
-      <h3>how to name classes and methods in java <img src="images/orange.png" alt="" class="colord"></h3>
+    <h3>how to name classes and methods in java <img src="images/orange.png" alt="" class="colord"></h3>
       <p class="p1">//procedure for naming a class: <br><u>access modifier</u> <u>keyword</u> <u>ClassName</u><br>
       for example: <br><em class="pu">Public</em> <em class="pu">class</em> <em class="na">Main</em> { <br>}
       <p class="p1">//procedure for naming a method(returntype) <br><u>access modifier</u>  <u>static</u>  <u>returntype(like:string,int,double) </u>
-     <u>methodName</u>(parameters {} value){ <br>.... <br> } <br>for example: <br>
-     <em class="pu">Public</em>
-     <em class="pu">static</em> <em class="pu">string/int</em> <em class="ma">main</em> (<em>string</em>{}args){<br>}
+      <u>methodName</u>(parameters {} value){ <br>.... <br> } <br>for example: <br>
+      <em class="pu">Public</em>
+      <em class="pu">static</em> <em class="pu">string/int</em> <em class="ma">main</em> (<em>string</em>{}args){<br>}
       </p>
       <p class="p1">//procedure for naming a method(nonreturntype) <br><u>access modifier</u>  <u>static</u>  <u>nonreturntype(void) </u>
         <u>methodName</u>(parameters {} value){ <br>....<br> } <br>for example: <br>
@@ -106,9 +106,12 @@
       <em class="pu">static</em> <em class="pu">void</em> <em class="ma">main</em> (<em>string</em>{}args){ <br>....<br> } <br>}
       <br> 
       <p><em class="note1">NOTE:</em> the shortcut for creating a method is "psvm" and your class will be automatically created
-        when you ype in a name by creating a new class in the src(source code)</p>
-      </p>
-      </p>
+        when you ype in a name by creating a new class in the src(source code). Also, the two forward slashes
+      "//" are commenting(commentsor qoutes) in java which won't be executed by the compiler, this makes our
+      code more readable
+    </p>
+    </p>
+    </p>
     </p>
     <h6>further explanation</h6>
     <p>for class where: <br>accesss modifier = Public <br>keyword for naming class = class <br>ClassName = Main
@@ -155,16 +158,48 @@
       <h5>Int</h5>:is an integer data type for holding number values from -2,147,483,648 t0 2,147,483,647
        The keyword for the byte data type is "int" <br>
       <h5>Iong</h5>:is an integer data type for holding  number values from 9,223,372,036,854,755,8 to 9,223,372,036,854,755,8
- The keyword for the long data type is "long"
+      The keyword for the long data type is "long"
       </p>
       <p> <u><b>table for integer primitive data types </b></u> <br>
         <img src="images/table1.png" alt="" class="color">
     </p>
     <p>
       <h5>double</h5>: A double is a floating point data type for holding decimal number value from 
+      1.7e-308 to 1.7e+038
       the keyword for double data type is "double"
-      <h5>float</h5>: this is a floating point data type for hold
+      <h5>float</h5>: this is a floating point data type for hold number values from 3.4e-038 to 3.4e+038 <br>
       <img src="images/table2.png" alt="" class="color">
     </p>
+    <p><em class="note1">NOTE:</em>integer data type is one which holds whole number values which consist
+    of "byte, short, int, and long". the size of the values that can be stored depends on the integer type
+    that was choose
+    <br>while <br>
+  floating point data types are used to represent numbers with a fractional part. <br>
+Also, the range of values is calculated as -(2^n-1) to (2^n-1), where n is the number of bits required</p>
+<p>
+  <h5>Character:</h5>it stores character constants in the memory it assumes a size of 2 bytes, but basically
+  it can hold only a single character. just know that character holds only a single character(alphabet)and
+  the keyword for this is "char", this also uses single qoute
+  <h5>Boolean:</h5> A boolean datatype are used to store conditional statements(true or false statements)
+   or values with two states: true or
+</p>
+<h3>How to code data types along with vaiables and value in java</h3>
+<p class="p1">
+  //procedure for coding primitive data types <br>
+  <u>datatype</u> <u>variable name(any reasonable name )</u> <u>assignment operator(=)</u> <u> value</u> <br>
+  //(1)byte:
+  <br>
+    <em class="pu">byte</em> <em class="var">number</em> <em>=</em> <em class="nu">12</em> <br>
+    //(2)int: <br>
+    <em class="pu">int</em> <em class="var">number2</em> <em>=</em> <em class="nu">100</em> <br>
+    //this also applies to long and short
+    //(3)double: <br>
+    <em class="pu">double</em> <em class="var">number3</em> <em>=</em> <em class="nu">10.34</em> <br>
+    // this also applies to float <br>
+    //(4)boolean:
+    <em class="pu">boolean</em> <em class="var">condition</em> <em>=</em> <em class="pu">true</em> <br>
+    //(5)character:
+    <em class="pu">char</em> <em class="var">singleaphla</em> <em>=</em> <em class="val">'j'</em>
+</p>
   </body>
 </html>

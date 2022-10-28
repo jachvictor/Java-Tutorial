@@ -66,3 +66,12 @@ button {
   float: right;
   margin-top: 10px;
 }
+em.var {
+  color: grey;
+}
+em.val {
+  color: rgb(37, 88, 37);
+}
+em.nu {
+  color: rgb(110, 157, 245);
+}
